@@ -1,0 +1,76 @@
+body {
+    width: 100vw;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+}
+
+.a {
+    grid-column: 1;
+    grid-row: 2;
+    background: white;
+}
+
+nav {
+    text-align: center;
+}
+
+.a ul {
+    margin-top: 20%;
+    padding: 0;
+}
+
+.a ul li {
+    margin-top: 10%;
+    list-style: none;
+}
+
+.a a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.b {
+    grid-column: 2;
+    grid-row: 1;
+    background: black;
+}
+
+.c {
+    grid-column: 2;
+    grid-row: 2;
+    background: white;
+}
+
+.heading{
+   margin: 5%;
+    text-align: center;
+}
+
+.heading h {
+
+}
+
+.threecolumns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.threecolumns p {
+    margin: 2%;
+}
+
+.tattootiles {
+    text-align: center;
+}
+
+.tattooimage img {
+    margin: 2%;
+    width: 50%;
+}
