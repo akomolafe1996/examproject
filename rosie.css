@@ -1,3 +1,29 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("Fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "RobotoMedium";
+    src: url("Fonts/Roboto-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("Fonts/Avenir.ttc");
+}
+
+@font-face {
+    font-family: "Lovely";
+    src: url("Fonts/Lovely.ttf")
+}
+
+@font-face {
+    font-family: "Century";
+    src: url("Fonts/Century.otf");
+}
+
+
 body {
     width: 100vw;
     margin: 0;
@@ -6,7 +32,7 @@ body {
 .wrapper {
     width: 100%;
     display: grid;
-    grid-template-columns: 20vw 80vw;
+    grid-template-columns: 15vw 85vw;
 }
 
 .a {
@@ -15,23 +41,49 @@ body {
     background: white;
 }
 
+.navigation {
+    position: fixed;
+    top: 10%;
+    left: 1%;
+}
+
+.navigation h {
+    font-family: lovely;
+    font-size: 5em;
+    color: #ffdb58;
+    text-shadow: black 2px 2px;
+}
+
 nav {
     text-align: center;
 }
 
+.heading h {
+    font-family: century;
+    font-size: 2em;
+}
+
 .a ul {
-    margin-top: 20%;
+    margin-top: 20px;
     padding: 0;
 }
 
 .a ul li {
-    margin-top: 10%;
+    margin-top: 23px;
     list-style: none;
+    line-height: 1.2em;
+    font-size: 1em;
+    font-family: Roboto;
+    text-align: left;
 }
 
 .a a {
     text-decoration: none;
     color: black;
+}
+
+.a a:hover {
+    font-family: RobotoMedium;
 }
 
 
@@ -44,17 +96,14 @@ nav {
 .c {
     grid-column: 2;
     grid-row: 2;
-    background: white;
 }
 
-.heading{
-   margin: 5%;
+.heading {
+    margin: 5%;
     text-align: center;
 }
 
-.heading h {
-
-}
+.heading h {}
 
 .threecolumns {
     display: grid;
@@ -64,6 +113,8 @@ nav {
 
 .threecolumns p {
     margin: 2%;
+    font-family: avenir;
+    font-size: 0.8em;
 }
 
 .tattootiles {
@@ -73,4 +124,107 @@ nav {
 .tattooimage img {
     margin: 2%;
     width: 50%;
+    height: 25vh;
+}
+
+.line1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+}
+
+.line2 {
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    color: black;
+    width: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .tattooimage img {
+        height: 18vh;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    .tattooimage img {
+        height: 20vh;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .tattooimage img {
+        height: 28vh;
+        width: 80%;
+    }
+
+    .navigation {
+        position: fixed;
+        top: 10%;
+        left: 1.5%;
+    }
+
+    .a ul li {
+        margin-top: 25px;
+        font-size: 0.7em;
+    }
+
+    .navigation h {
+        font-size: 2.5em;
+    }
+
+    .heading h {
+        font-family: century;
+        font-size: 1em;
+    }
+
+    .threecolumns p {
+        margin: 2%;
+        font-family: avenir;
+        font-size: 0.7em;
+    }
+
+    .line1 {
+        margin-top: 8%;
+        width: 80%;
+    }
+
+    .threecolumns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+    .tattooimage img {
+        height: 40vh;
+        width: 90%;
+    }
+
+    .a ul li {
+        margin-top: 23px;
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .tattooimage img {
+        height: 27vh;
+        width: 90%;
+    }
+
+        .wrapper {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20vw 80vw;
+    }
+
 }
