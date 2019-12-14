@@ -1,14 +1,4 @@
 @font-face {
-    font-family: "Roboto";
-    src: url("Fonts/Roboto-Light.ttf");
-}
-
-@font-face {
-    font-family: "RobotoMedium";
-    src: url("Fonts/Roboto-MediumItalic.ttf");
-}
-
-@font-face {
     font-family: "Avenir";
     src: url("Fonts/Avenir.ttc");
 }
@@ -41,12 +31,6 @@ body {
     background: white;
 }
 
-.navigation {
-    position: fixed;
-    top: 10%;
-    left: 1%;
-}
-
 .navigation h {
     font-family: lovely;
     font-size: 5em;
@@ -59,33 +43,9 @@ nav {
 }
 
 .heading h {
-    font-family: century;
+    font-family: "Avenir";
     font-size: 2em;
 }
-
-.a ul {
-    margin-top: 20px;
-    padding: 0;
-}
-
-.a ul li {
-    margin-top: 23px;
-    list-style: none;
-    line-height: 1.2em;
-    font-size: 1em;
-    font-family: Roboto;
-    text-align: left;
-}
-
-.a a {
-    text-decoration: none;
-    color: black;
-}
-
-.a a:hover {
-    font-family: RobotoMedium;
-}
-
 
 .b {
     grid-column: 2;
@@ -93,10 +53,6 @@ nav {
     background: black;
 }
 
-.c {
-    grid-column: 2;
-    grid-row: 2;
-}
 
 .heading {
     margin: 5%;
@@ -122,18 +78,17 @@ nav {
 }
 
 .tattooimage img {
-    margin: 2%;
-    width: 50%;
-    height: 25vh;
+  max-width: 100%;
+	height: auto;
 }
 
 .line1 {
     margin-top: 5%;
     margin-bottom: 5%;
-    width: 80%;
+    width: 100%;
 }
 
-.line2 {
+/*.line2 {
     display: block;
     margin-before: 0.5em;
     margin-after: 0.5em;
@@ -144,7 +99,8 @@ nav {
     border-width: 1px;
     color: black;
     width: 50%;
-}
+	padding-left: 2em;
+} */
 
 @media only screen and (max-width: 1000px) {
     .tattooimage img {
@@ -227,4 +183,26 @@ nav {
         grid-template-columns: 20vw 80vw;
     }
 
+}
+
+button {
+		border: 1px solid #999999;
+	-webkit-border-radius: 42px;
+	-moz-border-radius: 42px;
+	border-radius: 42;
+	font-size: 12px;
+	padding: 5px 15px 5px 15px;
+	text-decoration: none;
+	display: inline-block;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+	font-weight: bold;
+	color: #000;
+	background-color: #fff;
+	text-shadow: 0px 0px 10px gold,
+		         0px 0px 10px gold;
+}
+
+button:hover {
+	box-shadow: 0px 0px 10px gold,
+		        0px 0px 10px gold;
 }

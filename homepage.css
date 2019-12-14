@@ -1,0 +1,380 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: "Avenir", sans-serif;
+	color: #7E8080;
+}
+.wrapper {
+	font-size: 1.6em;
+	padding: 2em;
+	margin: 0 auto;
+	width: 990px;
+	background-color: white;
+}
+#logo {
+	margin-bottom: 15px;
+}
+#logo:hover {
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px gold,
+		        0px 0px 10px gold;
+}
+.sb-item {
+	height: 34px;
+	list-style-type: none;
+	margin-bottom: 21px;
+}
+
+.sb-icon-list {
+	margin-bottom: 60px;
+}
+
+/*.first-sb {
+	background: url("Images/1.png") bottom left no-repeat;
+}
+.second-sb {
+	background: url("Images/2.png") bottom left no-repeat;
+}
+.third-sb {
+	background: url("Images/3.png") bottom left no-repeat;
+}
+.fourth-sb {
+	background: url("Images/4.png") bottom left no-repeat;
+}
+*/
+
+.list-span {
+	display: inline-block;
+	padding-left: 20px;
+	padding-top: 8px;
+	font-size: 1.4em;
+	color: #000;
+}
+
+#social-title {
+display: block;
+border-bottom: 1px dashed #7E8080;
+width: 143px;
+padding-bottom: 5px;
+margin-bottom: 10px;
+}
+
+.social-icons {
+	padding-right: 7px;
+}
+
+aside {
+	float: left;
+	margin-right: 10px;
+}
+
+main {
+	float: right;
+	width: 750px;
+}
+
+#big-image {
+	margin-bottom: 50px;
+	border-radius: 5%;
+	box-shadow: 0px 0px 10px gold,
+		        0px 0px 10px gold;
+
+}
+#newsletter {
+	background: url("Images/news.png") bottom left no-repeat;
+	height: 50px;
+	padding-left: 54px;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+#signup-txt {
+	width: 317px;
+	display: inline-block;
+	font-size: .9em;
+	margin-right: 45px;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+.email-input {
+	height: 30px;
+	width: 170px;
+	margin-right: 30px;
+	border: 1px solid #7E8080;
+	-webkit-border-radius: 42px;
+	-moz-border-radius: 42px;
+	border-radius: 42;
+}
+
+.button {
+	border: 1px solid #7E8080;
+	-webkit-border-radius: 42px;
+	-moz-border-radius: 42px;
+	border-radius: 42;
+	font-size: 12px;
+	padding: 5px 15px 5px 15px;
+	text-decoration: none;
+	display: inline-block;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+	font-weight: bold;
+	color: #7E8080;
+	background-color: #fff;
+	text-shadow: 0px 0px 10px gold,
+		         0px 0px 10px gold;
+}
+.button:hover {
+	box-shadow: 0px 0px 10px gold,
+		        0px 0px 10px gold;
+}
+.subscribe-span {
+	position: absolute;
+	bottom: 10;
+	margin-top: 8px;
+}
+
+.article {
+
+	display: inline-block;
+	width: 166px;
+	margin-right: 16px;
+}
+h1 {
+	font-family: "Avenir", sans-serif;
+	font-weight: 100;
+	padding: 10px;
+}
+.art-title {
+	font-family: "Lovely Home", sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-shadow: 0px 0px 10px gold,
+		         0px 0px 10px gold;
+}
+.fourth-art {
+	margin-right: 0px;
+}
+
+/*footer*/
+
+.footer-distributed{
+	background: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #fff;
+  height: 40vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #7E8080;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+.footer-distributed .footer-links a:hover {
+	color: #000;
+}
+.footer-distributed .footer-company-name{
+	color:  #7E8080;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #7E8080;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+.footer-distributed .footer-icons a:hover {
+	text-shadow: 0px 0px 10px gold,
+		         0px 0px 10px gold;
+}
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #7E8080;
+}
+
+/* contact form */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #7E8080;
+	box-shadow: 0px 0px 10px gold,
+		        0px 0px 10px gold;
+	border: none;
+	resize: none;
+    opacity: 0.6;
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #7E8080;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #7E8080;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #7E8080;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	color: #7E8080;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: 200;
+	font-family: "Avenir", sans-serif;
+	float: right;
+}
+.footer-distributed form button:hover {
+		box-shadow: 0px 0px 10px gold,
+		            0px 0px 10px gold;
+}
+/* media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+}
+
+section {
+	padding-left: 6em;
+	padding-right: 6em;
+}
+p{
+	font-family: "Avenir", sans-serif;
+	font-weight: 200;
+
+}

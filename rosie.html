@@ -4,29 +4,48 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Temporary Tattoos</title>
     <link rel="stylesheet" href="rosie.css">
+	<link rel="stylesheet" type="text/css" href="homepage.css">
+	            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div class="wrapper">
-        <nav class="a">
-            <div class="navigation">
-                <h>rosie</h>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="rosie.html">Temporary<br> Tattoo</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">About</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="b">
-            <p>B</p>
-        </div>
-        <main class="c">
+	<aside>
+		<img src="Images/moon.png" id="logo" alt="wolflogo">
+		<ul class="sb-icon-list">
+		<li class="sb-item first-sb">
+			<a href="homepage.html">
+				<span class="list-span">Home</span></a>
+			</li>
+			<li class="sb-item first-sb">
+			<a href="about.html">
+				<span class="list-span">About</span></a>
+			</li>
+			<li class="sb-item second-sb">
+			<a href="gallery.html">
+			<span class="list-span">Gallery</span></a>
+			</li>
+			<li class="sb-item third-sb">
+			<a href="rosie.html">
+				<span class="list-span">Webshop</span></a>
+			</li>
+			<li class="sb-item fourth-sb">
+			<a href="contact.html">
+				<span class="list-span">Contact</span></a>
+			</li>
+		</ul>
+		<div id="social">
+			<span id="social-title">LET'S CONNECT!</span>
+		<img class="social-icons" src="Images/insta.png">
+		<img class="social-icons" src="Images/fb.png">
+		<img class="social-icons" src="Images/etsy.png">
+		</div>
+
+		</aside>
+
+        <main>
             <div class="heading">
                 <h>Temporary Tattoos</h>
                 <hr class="line1">
@@ -35,12 +54,57 @@
                 <template class="postTemplate">
                     <article class="tattootiles">
                         <div class="tattooimage"><a href="subpage.html?id=51"><img src="" alt="" class="cover"></a></div>
-                        <hr class="line2">
+                       <!-- <hr class="line2"> -->
                         <p><strong><span class="tattootitle"></span></strong><br><strong><span class="tattooprice"></span></strong></p>
+						<button>Buy Now</button>
                     </article>
                 </template>
             </div>
-        </main>
+			    </main>
     </div>
+
+				<section>
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a href="homepage.html">Home</a>
+					·
+					<a href="about.html">About</a>
+					·
+					<a href="gallery.html">Gallery</a>
+					·
+					<a href="rosie.html">Webshop</a>
+					·
+					<a href="contact.html">Contact</a>
+
+				</p>
+
+				<p class="footer-company-name">Rosie Frankland © 2019</p>
+
+				<div class="footer-icons">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-etsy"></i></a>
+				    <a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+				</div>
+			</div>
+
+			<div class="footer-right">
+
+				<p>Bookings</p>
+
+				<form action="#" method="post">
+					<input type="text" name="email" placeholder="Email">
+					<textarea name="message" placeholder="Message"></textarea>
+					<button>Send</button>
+				</form>
+
+			</div>
+
+		</footer>
+	</section>
+
     <script src="rosie.js"></script>
 </body></html>

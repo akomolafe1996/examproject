@@ -1,0 +1,44 @@
+
+.section{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.logo {
+	background-color: #ffdb58;
+	border-radius: 50%;
+    opacity: 0.5;
+}
+.section .logo {
+	text-align: center;
+	font-family: "Avenir";
+	padding: 10px;
+	margin: 15px;
+	z-index: 1;
+
+}
+.logo:hover {
+	cursor: pointer;
+	box-shadow: 0px 0px 10px gold,
+		        0px 0px 10px gold;
+}
+
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.color-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+/*	background-color: #fff;*/
+	width: 100%;
+	height: 100vh;
+/*	opacity: 0.5; */
+}
