@@ -20,9 +20,9 @@ body {
 }
 
 .wrapper {
-    width: 100%;
+    width: 50%;
     display: grid;
-    grid-template-columns: 15vw 85vw;
+	margin: 0;
 }
 
 .a {
@@ -102,22 +102,11 @@ nav {
 	padding-left: 2em;
 } */
 
-@media only screen and (max-width: 1000px) {
-    .tattooimage img {
-        height: 18vh;
-    }
-}
-
-@media only screen and (max-width: 910px) {
-    .tattooimage img {
-        height: 20vh;
-    }
-}
 
 @media only screen and (max-width: 900px) {
     .tattooimage img {
-        height: 28vh;
-        width: 80%;
+        max-width: 100%;
+		height: auto;
     }
 
     .navigation {
@@ -136,8 +125,8 @@ nav {
     }
 
     .heading h {
-        font-family: century;
-        font-size: 1em;
+        font-family: Avenir;
+        font-size: 1.5em;
     }
 
     .threecolumns p {
@@ -147,8 +136,8 @@ nav {
     }
 
     .line1 {
-        margin-top: 8%;
-        width: 80%;
+        margin-top: 5%;
+        width: 100%;
     }
 
     .threecolumns {
@@ -159,29 +148,90 @@ nav {
 
 }
 
-@media only screen and (max-width: 850px) {
-    .tattooimage img {
-        height: 40vh;
-        width: 90%;
-    }
+@media only screen and (max-width: 600px) {
 
-    .a ul li {
-        margin-top: 23px;
-        font-size: 0.7em;
+	.tattooimage img {
+        max-width: 70%;
+		height: auto;
     }
+	aside {
+		margin: 0;
+	}
+ * {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-@media only screen and (max-width: 700px) {
-    .tattooimage img {
-        height: 27vh;
-        width: 90%;
-    }
+body {
+	font-size: 62.5%;
+	font-family: "Avenir", sans-serif;
+	color: #221F51;
+}
+.wrapper {
+	font-size: 1.6em;
+	padding: 1.2em;
+	margin: 0 auto;
+	width: 600px;
+	background-color: white;
+	text-align: center;
 
-        .wrapper {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 20vw 80vw;
+}
+#logo {
+	/*margin-bottom: 15px;*/
+	display: inline-block;
+	height: 76px;
+	width: auto;
+	margin-left: -15px;
+}
+#logo:hover {
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px gold,
+		        0px 0px 10px gold;
+}
+.sb-item {
+	list-style-type: none;
+	margin-bottom: 0px;
+	display: inline;
+	margin-left: 14px;
+	background: none;
+	color: #000;
+
+}
+	h {
+		display: none;
+	}
+.sb-icon-list {
+	margin-bottom: 50px;
+	width: 430px;
+	display: inline-block;
+	font-size: .9em;
+}
+
+aside {
+	width: 570px;
+	margin: 0;
+}
+.list-span {
+	display: inline-block;
+	padding-left: 0px;
+	padding-top: 8px;
+	font-size: 1.4em;
+}
+main {
+
+	display: grid;
+	grid-template-rows: auto;
+	}
+	.threecolumns {
+      display: grid;
+      grid-template-columns: 1fr;
     }
+#social{
+display: none;
+}
 
 }
 

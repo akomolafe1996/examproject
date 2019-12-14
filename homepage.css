@@ -18,6 +18,7 @@ body {
 	width: 990px;
 	background-color: white;
 }
+
 #logo {
 	margin-bottom: 15px;
 }
@@ -35,7 +36,9 @@ body {
 .sb-icon-list {
 	margin-bottom: 60px;
 }
+.article-block{
 
+}
 /*.first-sb {
 	background: url("Images/1.png") bottom left no-repeat;
 }
@@ -93,6 +96,7 @@ main {
 	padding-left: 54px;
 	position: relative;
 	margin-bottom: 50px;
+
 }
 
 #signup-txt {
@@ -124,7 +128,7 @@ main {
 	display: inline-block;
 	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 	font-weight: bold;
-	color: #7E8080;
+	color: #000;
 	background-color: #fff;
 	text-shadow: 0px 0px 10px gold,
 		         0px 0px 10px gold;
@@ -369,10 +373,6 @@ section {
 	}
 }
 
-section {
-	padding-left: 6em;
-	padding-right: 6em;
-}
 p{
 	font-family: "Avenir", sans-serif;
 	font-weight: 200;
