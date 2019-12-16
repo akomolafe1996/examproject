@@ -2,13 +2,26 @@ window.addEventListener("DOMContentLoaded", init);
 
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get("id");
+const search = urlParams.get("search");
 
 function init() {
-    if (id) {
+    if (search) {
+        getsearchData();
+    }
+    else if (id) {
         getSingleTattoo();
     } else {
         getFrontpageData();
     }
+}
+
+function getsearchData() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const search = urlParams.get("search");
+    fetch("https://cosmicstryder.dk/wordpress/wp-json/wp/v2/sticker?_embed&search=" + search)
+        .then(res => res.json())
+        .then(handleData)
+
 }
 
 function getSingleTattoo() {
