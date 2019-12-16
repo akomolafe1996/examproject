@@ -1,0 +1,61 @@
+aside {
+	float: left;
+	margin-right: 10px;
+}
+
+.wrapper main {
+	width: 700px;
+
+}
+
+#big-image2 {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	float: right;
+	margin-bottom: 50px;
+}
+
+/*Start about*/
+.about-details {
+
+	display: block;
+	position: relative;
+}
+
+.about .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-heading {
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 0;
+	margin-bottom: 6rem;
+}
+
+.about-heading h1 {
+	font-size: 10rem;
+	opacity: .3;
+	margin-top: 500px;
+}
+
+.about-heading h6 {
+	margin-top: 40px;
+	font-size: 2rem;
+	font-weight: 300;
+	margin-bottom: -60px;
+}
+
+.about-details {
+	flex: 1;
+}
+
+.search-button {
+	width: 143px;
+	height: auto;
+}
+
+/*End about*/

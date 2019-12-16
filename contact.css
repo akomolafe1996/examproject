@@ -1,0 +1,108 @@
+/*
+.wrapper main {
+	width: 700px;
+
+}
+
+#big-image2 {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	float: right;
+	margin-bottom: 50px;
+	border-radius: 5%;
+	box-shadow: 0px 0px 10px gold,
+		        0px 0px 10px gold;
+}
+
+/*Start about*/
+/*.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.about-heading {
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 0;
+	margin-bottom: 6rem;
+}
+
+.about-heading h1 {
+	font-size: 10rem;
+	opacity: .3;
+}
+
+.about-heading h6 {
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+/*Contact*/
+
+.contact {
+	background-color: #fff;
+}
+
+.contact h1 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	opacity: 0.1;
+}
+
+.contact h6 {}
+
+form {
+	width: 70%;
+	margin: 0 auto;
+}
+
+form label {
+	font-size: 1.5rem;
+}
+
+input,
+select,
+textarea {
+	width: 100%;
+	padding: 1rem;
+	margin-bottom: 5px;
+	border: none;
+	outline-color: gold;
+}
+
+input[type="submit"] {
+	width: initial;
+	background-color: gold;
+	color: #eee;
+	padding: 1rem 2rem;
+	border-radius: .8rem;
+	cursor: pointer;
+	transition: background-color 650ms;
+}
+
+input[type="submit"]:hover {
+	color: #221e3f;
+	background-color: gold;
+}
+
+.search-button {
+	margin: 0;
+}
+
+/*Start footer*/
+
+/*.copyright{
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem 0;
+    position: relative;
+}*/
+
+.copyright p {
+	font-size: 1.4rem;
+}
+
+/*End footer*/
