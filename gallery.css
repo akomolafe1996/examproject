@@ -3,9 +3,6 @@ aside {
 	margin-right: 10px;
 }
 
-.wrapper main {
-	width: 700px;
-
 }
 
 /*#big-image2 {
@@ -60,6 +57,7 @@ aside {
 }
 
 .threecolumns {
+	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 	grid-gap: 1rem;
@@ -68,4 +66,3 @@ aside {
 .heading h1 {
 	text-align: center;
 }
-
