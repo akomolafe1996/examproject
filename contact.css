@@ -15,7 +15,7 @@
 	font-weight: 300;
 }
 
-/*Contact*/
+/* Contact form */
 
 .contact {
 	background-color: #fff;
@@ -26,8 +26,6 @@
 	margin-bottom: 30px;
 	opacity: 0.1;
 }
-
-.contact h6 {}
 
 form {
 	width: 70%;
@@ -45,12 +43,14 @@ textarea {
 	padding: 1rem;
 	margin-bottom: 5px;
 	border: none;
+	border-radius: 2%;
 	outline-color: gold;
+	background-color: #cacccc;
 }
 
 input[type="submit"] {
 	width: initial;
-	background-color: gold;
+	background-color: #cacccc;
 	color: #eee;
 	padding: 1rem 2rem;
 	border-radius: .8rem;
@@ -59,22 +59,6 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-	color: #221e3f;
+	color: #7E8080;
 	background-color: gold;
 }
-
-/*Start footer*/
-
-/*.copyright{
-    width: 100%;
-    text-align: center;
-    background-color: #fff;
-    padding: 2rem 0;
-    position: relative;
-}*/
-
-.copyright p {
-	font-size: 1.4rem;
-}
-
-/*End footer*/
