@@ -315,3 +315,43 @@ footer a {
 .copyright p {
 	font-size: 1.4rem;
 }
+
+/* Modal */
+/*
+.hide {
+	display: none;
+}
+
+.modal-background {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+.modal-content {
+	background-color: #fefefe;
+	color: #f4511e;
+	border: 5px solid #7c1f17;
+	padding: 10px;
+	width: 40%;
+	height: 40%;
+	margin: auto;
+}
+
+.modal-header {
+	padding: 1px;
+	background-color: #f5c9bb;
+
+}
+
+.pricex {
+	background-color: #f5c9bb;
+	margin-bottom: auto;
+	padding-bottom: 1px;
+}
+*/
